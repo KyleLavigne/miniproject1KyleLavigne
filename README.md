@@ -17,7 +17,7 @@ This program will look up 5 stock tickers and will present the user with 5 graph
  
 Please install the pip requirements:
 ```
-pip install -r requrements.txt
+pip install -r requirements.txt
 ```
  
 ### Executing program
