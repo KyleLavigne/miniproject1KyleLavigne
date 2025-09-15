@@ -18,8 +18,12 @@
 import yfinance as yf
 import numpy as np
 import copy
-import pprint
 import matplotlib.pyplot as plt
+from pathlib import Path
+
+charts = Path('charts')
+if not charts.exists():
+    Path(r'charts').mkdir()
 
 mystocks = {"NVDA", "BOND", "BLSH", "AAPL", "CRCL"}
 mystockdata = {}
